@@ -1,0 +1,9 @@
+# Environments / Secret stuff
+venv/
+.venv/
+.env
+.envrc
+
+### IDEs
+.vscode/
+.idea/
