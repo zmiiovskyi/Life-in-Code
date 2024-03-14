@@ -18,8 +18,10 @@ from django.contrib import admin
 from django.urls import path
 
 from app.views import index_page
+from app.views import register_page
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index_page)
+    path('', index_page),
+    path('login/', register_page)
 ]
